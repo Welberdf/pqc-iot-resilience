@@ -1,0 +1,51 @@
+{
+  "session": "20261115_011418",
+  "utc": "2026-11-15T01:14:19.053102+00:00",
+  "cpu_model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+  "nproc": 2,
+  "kernel": "6.6.159+",
+  "python": "3.13.18",
+  "colab": true,
+  "netem_available": false,
+  "openssl_version": "3.5.4",
+  "liboqs_ref": "9f027e7c76ce726ba02ed6b96321e6d0f2ccfd30",
+  "oqsprovider_ref": "69a6746cd753b7428ae163fc749b98acd56d8529",
+  "params": {
+    "N_HS": 1000,
+    "WARMUP": 20,
+    "BLOCK": 50,
+    "N_RESUME": 300,
+    "N_APP_MSGS": 200,
+    "FW_SIZES_KIB": [
+      256,
+      1024,
+      4096
+    ],
+    "N_FW": 200,
+    "N_DRILL": 30,
+    "N_UPD": 100,
+    "SEED": 1,
+    "INTERMEDIATES": 0,
+    "LINKS": {
+      "N0": {
+        "rtt_ms": 1,
+        "loss": 0.0,
+        "bw_mbps": 1000
+      },
+      "N1": {
+        "rtt_ms": 40,
+        "loss": 0.01,
+        "bw_mbps": 20
+      },
+      "N2": {
+        "rtt_ms": 200,
+        "loss": 0.05,
+        "bw_mbps": 1
+      }
+    },
+    "CPU_SCALE": {
+      "colab_x86": 1.0
+    }
+  },
+  "openssl_runtime": "OpenSSL 3.5.4 30 Sep 2025 (Library: OpenSSL 3.5.4 30 Sep 2025)"
+}

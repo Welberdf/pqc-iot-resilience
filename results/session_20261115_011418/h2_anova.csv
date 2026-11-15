@@ -1,0 +1,5 @@
+metrica,eta2_kem,eta2_auth,H2_suportada,magnitude_kem,magnitude_auth
+computação (cliente+servidor),0.033717169209777464,0.6141106640132334,True,pequeno,grande
+tempo total modelado N0,0.02372724422122452,0.5530085555381521,True,pequeno,grande
+tempo total modelado N1,0.0005997527116863438,0.012482468053118971,True,desprezível,pequeno
+tempo total modelado N2,0.003287909151314645,0.06208375771286721,True,desprezível,médio

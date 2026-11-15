@@ -1,0 +1,611 @@
+{
+  "name": "PB",
+  "description": "Field device on a regional link (N1), 128 MiB RAM, image of 1 MiB",
+  "z": 1.96,
+  "thresholds": {
+    "phi_F": 0.5,
+    "phi_S": 0.95
+  },
+  "weights": {
+    "KE1": 0.14285714285714285,
+    "AU1": 0.14285714285714285,
+    "KE2": 0.14285714285714285,
+    "AU2": 0.14285714285714285,
+    "KE3": 0.14285714285714285,
+    "AU3": 0.14285714285714285,
+    "FW": 0.14285714285714285
+  },
+  "budgets": {
+    "KE1": {
+      "handshake_ms": 200,
+      "peak_ram_kb": 32768,
+      "server_flight_bytes": 14600
+    },
+    "AU1": {
+      "handshake_ms": 200,
+      "peak_ram_kb": 32768,
+      "server_flight_bytes": 14600
+    },
+    "KE2": {
+      "handshake_ms": 50,
+      "peak_ram_kb": 65536,
+      "server_flight_bytes": 14600
+    },
+    "AU2": {
+      "handshake_ms": 50,
+      "peak_ram_kb": 65536,
+      "server_flight_bytes": 14600
+    },
+    "KE3": {
+      "handshake_ms": 50,
+      "peak_ram_kb": 65536,
+      "server_flight_bytes": 14600
+    },
+    "AU3": {
+      "handshake_ms": 50,
+      "peak_ram_kb": 65536,
+      "server_flight_bytes": 14600
+    },
+    "FW": {
+      "verify_ms": 100,
+      "sig_bytes": 4096,
+      "peak_ram_kb": 32768,
+      "update_s": 5
+    }
+  },
+  "urgency": {
+    "KE1": {
+      "X": 3,
+      "Y": 15
+    },
+    "AU1": {
+      "X": 3,
+      "Y": 2
+    },
+    "KE2": {
+      "X": 3,
+      "Y": 15
+    },
+    "AU2": {
+      "X": 3,
+      "Y": 2
+    },
+    "KE3": {
+      "X": 3,
+      "Y": 15
+    },
+    "AU3": {
+      "X": 3,
+      "Y": 2
+    },
+    "FW": {
+      "X": 5,
+      "Y": 15
+    }
+  },
+  "Z": {
+    "optimistic": 25,
+    "intermediate": 15,
+    "pessimistic": 9
+  },
+  "configurations": {
+    "A": {
+      "KE1": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 102.93260000000001,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU1": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 102.93260000000001,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE2": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.6777399999999996,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU2": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.6777399999999996,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE3": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.6777399999999996,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU3": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.6777399999999996,
+          "peak_ram_kb": 8736.0,
+          "server_flight_bytes": 774.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "FW": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "verify_ms": 7.25375,
+          "sig_bytes": 72.0,
+          "peak_ram_kb": 8000.0,
+          "update_s": 1.48444045
+        },
+        "successes": 100,
+        "trials": 100,
+        "agility": 0.5
+      }
+    },
+    "B": {
+      "KE1": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 103.69630000000001,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU1": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 103.69630000000001,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "KE2": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.90482,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU2": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.90482,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "KE3": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.90482,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU3": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 3.90482,
+          "peak_ram_kb": 8824.0,
+          "server_flight_bytes": 1862.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "FW": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "verify_ms": 7.25375,
+          "sig_bytes": 72.0,
+          "peak_ram_kb": 8000.0,
+          "update_s": 1.48444045
+        },
+        "successes": 100,
+        "trials": 100,
+        "agility": 0.5
+      }
+    },
+    "C": {
+      "KE1": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 106.60520000000001,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU1": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 106.60520000000001,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE2": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU2": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE3": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU3": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "FW": {
+        "mode": "C",
+        "runs": true,
+        "metrics": {
+          "verify_ms": 7.25375,
+          "sig_bytes": 72.0,
+          "peak_ram_kb": 8000.0,
+          "update_s": 1.48444045
+        },
+        "successes": 100,
+        "trials": 100,
+        "agility": 0.5
+      }
+    },
+    "D": {
+      "KE1": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 106.61215,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU1": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 106.61215,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "KE2": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU2": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "KE3": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "AU3": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 4.51909,
+          "peak_ram_kb": 10372.0,
+          "server_flight_bytes": 8013.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 1
+      },
+      "FW": {
+        "mode": "H",
+        "runs": true,
+        "metrics": {
+          "verify_ms": 16.819650000000003,
+          "sig_bytes": 2492.0,
+          "peak_ram_kb": 8928.0,
+          "update_s": 1.3957676
+        },
+        "successes": 100,
+        "trials": 100,
+        "agility": 0.5
+      }
+    },
+    "E": {
+      "KE1": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 107.46065,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU1": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 107.46065,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE2": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.26509,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU2": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.26509,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE3": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.26509,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU3": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.26509,
+          "peak_ram_kb": 8716.0,
+          "server_flight_bytes": 7776.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "FW": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "verify_ms": 10.0995,
+          "sig_bytes": 2420.0,
+          "peak_ram_kb": 8928.0,
+          "update_s": 1.2909116
+        },
+        "successes": 100,
+        "trials": 100,
+        "agility": 0.5
+      }
+    },
+    "F": {
+      "KE1": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 108.56554999999999,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU1": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 108.56554999999999,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE2": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.67452,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU2": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.67452,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "KE3": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.67452,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "AU3": {
+        "mode": "P",
+        "runs": true,
+        "metrics": {
+          "handshake_ms": 5.67452,
+          "peak_ram_kb": 8832.0,
+          "server_flight_bytes": 10194.0
+        },
+        "successes": 1000,
+        "trials": 1000,
+        "agility": 0.5
+      },
+      "FW": {
+        "mode": "P",
+        "runs": false,
+        "metrics": {},
+        "successes": 0,
+        "trials": 0,
+        "note": "LMS verification was not measured in this environment",
+        "agility": 0.5
+      }
+    }
+  }
+}

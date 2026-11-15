@@ -1,0 +1,265 @@
+{
+  "A": {
+    "executable": true,
+    "firmware_signature": "ecdsa",
+    "handshake": {
+      "device_comp_us": 737.45,
+      "server_comp_us": 426.29999999999995,
+      "c2s_bytes": 297.0,
+      "s2c_bytes": 774.0,
+      "flights": 3.0,
+      "peak_rss_kb": 8736.0,
+      "rss_extra_kb": 1216.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": {
+      "256": {
+        "verify_us": 1215.9,
+        "sig_bytes": 71,
+        "rss_peak_kb": 7220,
+        "rss_extra_kb": 3996
+      },
+      "1024": {
+        "verify_us": 7253.75,
+        "sig_bytes": 72,
+        "rss_peak_kb": 8000,
+        "rss_extra_kb": 4832
+      },
+      "4096": {
+        "verify_us": 17670.35,
+        "sig_bytes": 72,
+        "rss_peak_kb": 11072,
+        "rss_extra_kb": 7876
+      }
+    }
+  },
+  "B": {
+    "executable": true,
+    "firmware_signature": "ecdsa",
+    "handshake": {
+      "device_comp_us": 862.6,
+      "server_comp_us": 495.9,
+      "c2s_bytes": 1473.0,
+      "s2c_bytes": 1862.0,
+      "flights": 3.0,
+      "peak_rss_kb": 8824.0,
+      "rss_extra_kb": 1300.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": {
+      "256": {
+        "verify_us": 1215.9,
+        "sig_bytes": 71,
+        "rss_peak_kb": 7220,
+        "rss_extra_kb": 3996
+      },
+      "1024": {
+        "verify_us": 7253.75,
+        "sig_bytes": 72,
+        "rss_peak_kb": 8000,
+        "rss_extra_kb": 4832
+      },
+      "4096": {
+        "verify_us": 17670.35,
+        "sig_bytes": 72,
+        "rss_peak_kb": 11072,
+        "rss_extra_kb": 7876
+      }
+    }
+  },
+  "C": {
+    "executable": true,
+    "firmware_signature": "ecdsa",
+    "handshake": {
+      "device_comp_us": 1171.6,
+      "server_comp_us": 749.55,
+      "c2s_bytes": 1479.0,
+      "s2c_bytes": 8013.0,
+      "flights": 3.0,
+      "peak_rss_kb": 10372.0,
+      "rss_extra_kb": 1512.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": {
+      "256": {
+        "verify_us": 1215.9,
+        "sig_bytes": 71,
+        "rss_peak_kb": 7220,
+        "rss_extra_kb": 3996
+      },
+      "1024": {
+        "verify_us": 7253.75,
+        "sig_bytes": 72,
+        "rss_peak_kb": 8000,
+        "rss_extra_kb": 4832
+      },
+      "4096": {
+        "verify_us": 17670.35,
+        "sig_bytes": 72,
+        "rss_peak_kb": 11072,
+        "rss_extra_kb": 7876
+      }
+    }
+  },
+  "D": {
+    "executable": true,
+    "firmware_signature": "hybrid",
+    "handshake": {
+      "device_comp_us": 1171.6,
+      "server_comp_us": 749.55,
+      "c2s_bytes": 1479.0,
+      "s2c_bytes": 8013.0,
+      "flights": 3.0,
+      "peak_rss_kb": 10372.0,
+      "rss_extra_kb": 1512.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": {
+      "256": {
+        "verify_us": 2599.1,
+        "sig_bytes": 2491,
+        "rss_peak_kb": 7516,
+        "rss_extra_kb": 4232
+      },
+      "1024": {
+        "verify_us": 16819.65,
+        "sig_bytes": 2492,
+        "rss_peak_kb": 8928,
+        "rss_extra_kb": 5740
+      },
+      "4096": {
+        "verify_us": 48621.55,
+        "sig_bytes": 2492,
+        "rss_peak_kb": 15164,
+        "rss_extra_kb": 12000
+      }
+    }
+  },
+  "E": {
+    "executable": true,
+    "firmware_signature": "mldsa44",
+    "handshake": {
+      "device_comp_us": 949.1500000000001,
+      "server_comp_us": 1419.6,
+      "c2s_bytes": 1441.0,
+      "s2c_bytes": 7776.0,
+      "flights": 3.0,
+      "peak_rss_kb": 8716.0,
+      "rss_extra_kb": 956.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": {
+      "256": {
+        "verify_us": 1371.75,
+        "sig_bytes": 2420,
+        "rss_peak_kb": 7516,
+        "rss_extra_kb": 4232
+      },
+      "1024": {
+        "verify_us": 10099.5,
+        "sig_bytes": 2420,
+        "rss_peak_kb": 8928,
+        "rss_extra_kb": 5740
+      },
+      "4096": {
+        "verify_us": 30828.1,
+        "sig_bytes": 2420,
+        "rss_peak_kb": 15164,
+        "rss_extra_kb": 12000
+      }
+    }
+  },
+  "F": {
+    "executable": true,
+    "firmware_signature": "lms",
+    "handshake": {
+      "device_comp_us": 1204.75,
+      "server_comp_us": 1864.45,
+      "c2s_bytes": 1441.0,
+      "s2c_bytes": 10194.0,
+      "flights": 3.0,
+      "peak_rss_kb": 8832.0,
+      "rss_extra_kb": 1028.0
+    },
+    "continuity": {
+      "N0": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N1": {
+        "successes": 1000,
+        "trials": 1000
+      },
+      "N2": {
+        "successes": 1000,
+        "trials": 1000
+      }
+    },
+    "firmware": null
+  }
+}
